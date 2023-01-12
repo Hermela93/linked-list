@@ -1,0 +1,21 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        LinkedList<String> names=new LinkedList<>();
+        names.add("aa");
+        names.add("ab");
+        names.add("ac");
+        System.out.println(names);
+
+        Iterator it=names.iterator();
+        while(it.hasNext())
+        {
+            System.out.println(it.next());
+        }
+        Map<String,Integer> countrycode=new HashMap<>();
+        countrycode.put("ad",9);
+        countrycode.put("ab",0);
+        countrycode.put("au",8);
+        countrycode.put("ap",7);
+    }
+}
